@@ -84,6 +84,7 @@ setcartdata(cartproducts)
        
           <div class="card-body">
             <h3>{prod.title}</h3>
+            <img src={prod.images[0]} />
             <h3>{prod.price}</h3>
             
             <p class="card-text">{prod.description}</p>
